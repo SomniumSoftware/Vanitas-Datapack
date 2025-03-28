@@ -9,7 +9,7 @@ playsound minecraft:entity.ender_dragon.growl master @s ~ ~ ~ 1 1 1
 
 # TOMBSTONE
 fill ~ ~ ~ ~ ~1 ~ cobblestone replace
-setblock ~1 ~1 ~ oak_wall_sign[facing=east]{front_text:{messages:['{"text": ""}', '{"selector": "@p"}', '{"text": ""}', '{"text": ""}']}}
+setblock ~1 ~1 ~ oak_wall_sign[facing=east]{front_text:{messages:[{text: ""}, {selector: "@p"}, {text: ""}, {text: ""}]}}
 
 # SET GAMEMODE
 gamemode spectator @s
